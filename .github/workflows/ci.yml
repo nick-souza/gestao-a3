@@ -36,6 +36,8 @@ jobs:
 
     - name: Run Tests
       run: mvn test  # Run tests using Maven
+      env:
+        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
 
     - name: Upload test results
       if: always()  # Even if tests fail, upload the results
