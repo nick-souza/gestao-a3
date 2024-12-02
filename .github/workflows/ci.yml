@@ -37,6 +37,9 @@ jobs:
     - name: Run Tests
       run: mvn test  # Run tests using Maven
 
+    - name: Test Coverage
+      run: mvn sonar:sonar -Pcoverage
+
     - name: Upload test results
       if: always()  # Even if tests fail, upload the results
       uses: actions/upload-artifact@v3
