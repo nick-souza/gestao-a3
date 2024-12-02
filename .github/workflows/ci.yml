@@ -32,6 +32,8 @@ jobs:
       env:
 #        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         SONAR_TOKEN: 53f5fec7b7d2912aa5c95a8dabf38918a24d1bb4
+        SONAR_ORGANIZATION: nick-souza
+        SONAR_PROJECTKEY: nick-souza_gestao-a3
       run: mvn sonar:sonar
 
     - name: Test Coverage
