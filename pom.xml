@@ -16,6 +16,7 @@
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
         <sonar.organization>nick-souza</sonar.organization>
         <sonar.projectKey>nick-souza_gestao-a3</sonar.projectKey>
+        <sonar.token>53f5fec7b7d2912aa5c95a8dabf38918a24d1bb4</sonar.token>
 
         <sonar.coverage.jacoco.xmlReportPaths>target/site/jacoco/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
     </properties>
